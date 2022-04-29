@@ -1,0 +1,192 @@
+.main
+{
+  min-height:100%;
+}
+
+.header
+{
+	font-weight:bold; 
+	font-size:60px;
+}
+
+.sub-header
+{
+	font-size:30px;
+}
+
+
+.signin-jumbotron 
+{
+  background: url("//localhost/php_project/Images/gradient1.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.checked {
+  color: orange;
+}
+
+html,
+body,
+header,
+#intro {
+
+  height: 100%;
+}
+
+#intro {
+    background: url("//localhost/php_project/Images/home/background1.jpg")no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#style-3::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+
+#style-3::-webkit-scrollbar
+{
+  width: 6px;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+  background-color: #24355C;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+
+#style-1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+  background-color: #F90; 
+  background-image: -webkit-linear-gradient(45deg,
+                                            rgba(255, 255, 255, .2) 25%,
+                        transparent 25%,
+                        transparent 50%,
+                        rgba(255, 255, 255, .2) 50%,
+                        rgba(255, 255, 255, .2) 75%,
+                        transparent 75%,
+                        transparent)
+}
+
+.scrollbar {
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.college-logo
+{
+  max-height:100px;
+}
+
+.college-list:hover
+{
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2), 20px 6px 20px 6px rgba(0, 0, 0, 0.19);
+}
+
+#searchButton
+{
+  border-radius: 40px;
+}
+
+.collegeDetail
+{
+  width :800px;
+  margin-top:98px;
+}
+
+.circle-image
+{
+  border-radius:50%;
+  border:2px solid #fff;
+  max-height:150px;
+  max-width:150px;
+  min-height:150px;
+  min-width:150px;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.circle-profile-image
+{
+  border-radius:50%;
+  max-height:40px;
+  max-width:40px;
+  min-height:40px;
+  min-width:40px;
+}
+
+.circle-news-image
+{
+  border-radius:50%;
+  max-height:80px;
+  max-width:80px;
+  min-height:80px;
+  min-width:80px;
+}
+
+.circle-icon
+{
+  border-radius:50%;
+  border:2px solid #fff;
+  height:200px;
+  width:200px;
+  box-shadow: 0 0 2px 1px rgba(0, 51, 102, 0.5);
+}
+
+.userDetail
+{
+  margin-top:98px;
+}
+
+.text-indigo
+{
+  color:#24355C;
+}
+
+.star
+{
+  font-size:25px;
+}
+
+.pointer
+{
+  cursor:pointer;
+}
+
+.news {
+  width: 800px;
+  margin-top: 98px;
+}
